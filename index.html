@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotador de TRUCO</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="img-truco.gif" alt="anotador-de-truco-gif">
+                        </figure>
+                    </div>
+                    <header class="card-header">
+                        <p class="card-header-title is-centered">
+                            ANOTADOR DE TRUCO
+                        </p>
+
+
+                    </header>
+
+
+                    <div class="card-content">
+                        <div class="content">
+
+                            <!-- <label class="label is-inline is-large" for="jugarA">Puntos necesarios para ganar:</label> -->
+                            <div class="select is-rounded">
+                                <select name="jugarA" id="jugarA">
+                                    <option value="15">Jugar a 15</option>
+                                    <option value="30">Jugar a 30</option>
+                                </select>
+                            </div>
+                            <h1 class="display"><span id="jugadorUnoDisplay">0</span> a <span
+                                    id="jugadorDosDisplay">0</span></h1>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="button is-success is-medium card-footer-item" id="botonJugadorUno">+1 Jugador
+                            Uno</button>
+                        <button class="button is-success is-medium card-footer-item" id="botonJugadorDos">+1 Jugador
+                            Dos</button>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="button is-danger is-outlined is-medium card-footer-item"
+                            id="botonReset">Reiniciar</button>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Desarrollado por <b>Alan Guarino</b>. The source
+                code is free.
+
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="truco.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-family: 'Rampart One', cursive;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.winner {
+    color: #60d394;
+    /* background-color: #60d394; */
+    /* border-radius: 50%; */
+}
+
+.looser {
+    color: #ee6055;
+    /* background-color: #ee6055; */
+    /* border-radius: 50%; */
+}
+
+.button.is-success.is-medium.card-footer-item {
+    background-color: #B5838D;
+
+}
+
+.card-header {
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+
+/* #botonReset {
+
+    display: block;
+} */
+
+.display {
+
+    text-align: center;
+}
+
+/* .select.isrounded {
+    display: block;
+    margin: 0 auto;
+} */
