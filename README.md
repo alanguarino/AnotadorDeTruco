@@ -1,1 +1,1 @@
-Simple TRUCO Scorer application developed with Vanilla JS and Bulma.io CSS
+Simple TRUCO Scorer app developed with Vanilla JS and Bulma.io CSS
